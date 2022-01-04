@@ -133,7 +133,7 @@ fetch(`http://ip-api.com/line`).then(res => res.text())
 			try {
 					ppimg = await bosco.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`)
 				} catch {
-					ppimg = 'https://i.ibb.co/rvsVF3r/5012fbb87660.png'
+					ppimg = 'achuser.jpg'
 				}
 			let buff = await getBuffer(ppimg)
 			const bosco1 = await bosco.prepareMessage("0@s.whatsapp.net", buff, MessageType.location,{ thumbnail: buff})
