@@ -56,9 +56,9 @@ nocache('../message/help.js', module => console.log(color('[WATCH]', 'cyan'), co
 		width: 80,
 		whitespaceBreak: false
 	}), 'yellow'))
-	console.log(color('[DENIS]', 'cyan'), color('WELCOME', 'white'))
+	console.log(color('[ACHU]', 'cyan'), color('WELCOME', 'white'))
 	console.log(color('[SER]', 'cyan'), color('BOT RUNNING', 'yellow'))
-	bosco.browserDescription = ["SUBSCRIBE YT - [PEPE - SIR]", "firefox", "3.0.0"];
+	bosco.browserDescription = ["IT'S ME - [ACHU - SIR]", "firefox", "3.0.0"];
 
 	// Menunggu QR
 	bosco.on('qr', () => {
@@ -141,7 +141,7 @@ fetch(`http://ip-api.com/line`).then(res => res.text())
 			teks = `*Yᴏᴜ Aʀᴇ Nᴏᴡ Aɴ Aᴅᴍɪɴ*
  @${num.split('@')[0]}
 `
-			promoteBut = [{buttonId:`hm`,buttonText:{displayText:'Enjoy mwonu 🥳'},type:1}]
+			promoteBut = [{buttonId:`hm`,buttonText:{displayText:'ᎬΝᎫϴᎽ мωοиυ 🥳'},type:1}]
             promoteButt = { contentText: `${teks}`, footerText: `𝐀𝐂𝐇𝐔 𝐒𝐄𝐑 ʙᴏᴛ`, buttons: promoteBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
             bosco.sendMessage(mdata.id, promoteButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
 		    } else if (anu.action == 'demote') {
@@ -158,7 +158,7 @@ fetch(`http://ip-api.com/line`).then(res => res.text())
 			teks = `*Yᴏᴜ Aʀᴇ Nᴏ Lᴏɴɢᴇʀ Aɴ Aᴅᴍɪɴ*
  @${num.split('@')[0]}
 `
-			demoteBut = [{buttonId:`hm`,buttonText:{displayText:'Sheri enna...🚶'},type:1}]
+			demoteBut = [{buttonId:`hm`,buttonText:{displayText:'ՏᎻᎬᎡᏆ ᎬΝΝᎪ....🚶'},type:1}]
             demoteButt = { contentText: `${teks}`, footerText: `𝐀𝐂𝐇𝐔 𝐒𝐄𝐑 ʙᴏᴛ`, buttons: demoteBut, headerType: 6, locationMessage: bosco4.message.locationMessage}
             bosco.sendMessage(mdata.id, demoteButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
 		    }
