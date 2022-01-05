@@ -327,7 +327,7 @@ module.exports = bosco = async (bosco, mek) => {
                             "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=",
                             "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69",
                             "mediaKeyTimestamp": "1610993486",
-                            "jpegThumbnail": fs.readFileSync('./ds.jpg'),
+                            "jpegThumbnail": fs.readFileSync('./achuser.jpg'),
                             "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="
                         }
                     }
@@ -357,7 +357,7 @@ module.exports = bosco = async (bosco, mek) => {
                             "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=",
                             "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69",
                             "mediaKeyTimestamp": "1610993486",
-                            "jpegThumbnail": fs.readFileSync('./ds.jpg'),
+                            "jpegThumbnail": fs.readFileSync('./achuser.jpg'),
                             "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="
                         }
                     }
@@ -406,7 +406,7 @@ const ftex = {
         	fromMe:false,
         participant:`0@s.whatsapp.net`, ...(from ? {
 remoteJid :"status@broadcast" }: {})
-                    },message:{"orderMessage":{"orderId":"918590284271","thumbnail":fs.readFileSync(`ds.jpg`),"itemCount":2021,"status":"INQUIRY","surface":"CATALOG","message":`${fake}`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
+                    },message:{"orderMessage":{"orderId":"918590284271","thumbnail":fs.readFileSync(`achuser.jpg`),"itemCount":2021,"status":"INQUIRY","surface":"CATALOG","message":`${fake}`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
                     //WAKTU
 			var ase = new Date();
                         var jamss = ase.getHours();
@@ -500,7 +500,7 @@ const fvid = {
                   key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},message: {"productMessage": {"product": {"productImage":{"mimetype": "image/jpeg","jpegThumbnail": fs.readFileSync(`./achuser.jpg`)},"title": `▢ ${fake} ▢`,"description": "hehe", "currencyCode": "IDR","priceAmount1000": "9999999999","retailerId": "X - Dev Team","productImageCount": 1},"businessOwnerJid": `0@s.whatsapp.net`}}}
             //FAKE KONTAK
             const fkontak = { 
-                  key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: `0@s.whatsapp.net` } : {}) }, message: { 'contactMessage': { 'displayName': `${fake}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Its Me Pepe Ser\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync('./ds.jpg')}}}
+                  key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: `0@s.whatsapp.net` } : {}) }, message: { 'contactMessage': { 'displayName': `${fake}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Its Me Pepe Ser\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync('./achuser.jpg')}}}
             //FAKE STICKER
             const fsticker = {
                   key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},"message": {"stickerMessage": { "url": "https://mmg.whatsapp.net/d/f/Am6FBfNf-E2f1VoGBXkPaNAy7L6Tw_HMavKrHEt48QM4.enc","fileSha256": "Yfj8SW7liSEnDakvyVlXVZQ1LJBC9idn09X7KHe8HTc=","fileEncSha256": "F854aUrzgAkBTOVULpne4oSIi6S04Jo56pjZEo+p+9U=","mediaKey": "Z3nA2asclAAwWHngNO/vJ81qxOE2/0gkEnXak+NxPV4=","mimetype": "image/webp","height": 64,"width": 64,"directPath": "/v/t62.15575-24/12097272_1193895144391295_8973688483514349023_n.enc?ccb=11-4&oh=5a9d7147627a8355569f1a641b9ebee3&oe=60C65E73","fileLength": "7186","mediaKeyTimestamp": "1622815545","isAnimated": true}}}
@@ -581,7 +581,7 @@ const ftrol = {
 			for (let anjh of imagi){
 				if (budy === anjh){
 					result = fs.readFileSync(`./media/image/${anjh}.jpg`)
-					bosco.sendMessage(from, result, image, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 500, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `${fake}`, orderTitle: `MADE BY DENIS`, sellerJid: '0@s.whatsapp.net'}}}})
+					bosco.sendMessage(from, result, image, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 500, status: 200, thumbnail: fs.readFileSync('./achuser.jpg'), surface: 200, message: `${fake}`, orderTitle: `MADE BY 𝐀𝐂𝐇𝐔 𝐒𝐄𝐑`, sellerJid: '0@s.whatsapp.net'}}}})
 					}
 			}
 			for (let anje of videonye){
@@ -612,7 +612,7 @@ const ftrol = {
 	       for (let i of members){
 	       ane.push(i.jid)
 }
-	       bosco.sendMessage(from, {text:text, jpegThumbnail:fs.readFileSync('media/Nakano.jpg')}, 'extendedTextMessage', {contextInfo: {"mentionedJid": ane}})
+	       bosco.sendMessage(from, {text:text, jpegThumbnail:fs.readFileSync('achuser.jpg')}, 'extendedTextMessage', {contextInfo: {"mentionedJid": ane}})
 }  
       const sendWebp = async(to, url) => {
            var names = Date.now() / 10000;
@@ -660,7 +660,7 @@ const ftrol = {
            if(mime.split("/")[0] === "audio"){
            mime = Mimetype.mp4Audio
 }
-           bosco.sendMessage(to, media, type, {quoted: mek, "externalAdReply": { "title": `${' '}Sᴜʙsᴄʀɪʙᴇ Yᴛ : PEPE SIR${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}, mimetype: mime, caption: text, thumbnail: Buffer.alloc(0), contextInfo: {"mentionedJid": mids}})
+           bosco.sendMessage(to, media, type, {quoted: mek, "externalAdReply": { "title": `${' '}ɪᴛ's ᴍᴇ 𝐀𝐂𝐇𝐔 𝐒𝐄𝐑${''}${''}`, "body": `Pᴇʀsᴏɴᴀʟ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}, mimetype: mime, caption: text, thumbnail: Buffer.alloc(0), contextInfo: {"mentionedJid": mids}})
                      
            fs.unlinkSync(filename)
 });
@@ -728,7 +728,7 @@ const ftrol = {
           let authorname = bosco.contacts[from] != undefined ? bosco.contacts[from].vname || bosco.contacts[from].notify : undefined	
           if (authorname != undefined) { } else { authorname = groupName }	
           function addMetadata(packname, author) {	
-          if (!packname) packname = '!Denis'; if (!author) author = 'Ser';author = author.replace(/[^a-zA-Z0-9]/g, '');	
+          if (!packname) packname = '!ACHU'; if (!author) author = 'Ser';author = author.replace(/[^a-zA-Z0-9]/g, '');	
           let name = `${author}_${packname}`
           if (fs.existsSync(`./sticker/${name}.exif`)) return `./sticker/${name}.exif`
           const json = {	
