@@ -1658,7 +1658,7 @@ break
                     encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 		            media = await bosco.downloadAndSaveMediaMessage(encmedia)
                     anu = args.join(' ').split('|')
-                    satu = anu[0] !== '' ? anu[0] : `ACHU SER`
+                    satu = anu[0] !== '' ? anu[0] : `Denis`
                     dua = typeof anu[1] !== 'undefined' ? anu[1] : `BOT`
                     require('./lib/fetch.js').createExif(satu, dua)
 			        require('./lib/fetch.js').modStick(media, bosco, mek, from)
