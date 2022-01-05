@@ -2413,7 +2413,7 @@ teks += `*▢ Title : ${get_result[i].title}*
              bosco.sendMessage(from, data, audio, { quoted: mek })
              break
       case 'alive':
-              bosco1 = await bosco.prepareMessage(from, Denis, location, {thumbnail: ACHU SER})
+              bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
               bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
               groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = bosco.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
